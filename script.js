@@ -102,16 +102,23 @@ thescript.id = "avoscript"
 // Other Element
 var otherstuff = document.createElement("div")
 var br = document.createElement("br")
+var br2 = document.createElement("br")
 otherstuff.innerText = "Other Features:"
-var grey = document.createElement("button");
+var grey = document.createElement("button")
 var clicked = false;
 grey.setAttribute("onclick", "greyscale()")
 grey.setAttribute("class", "obtn")
 grey.innerText = "Toggle Greyscale"
+var ugly = document.createElement("button")
+ugly.setAttribute("onclick", "javascript:(function(){var elems=document.getElementsByTagName("*");for(var i = 0; i<elems.length;i++){elems[i].style.fontFamily="Comic Sans MS";elems[i].style.fontSize=Math.random()*75+"px";elems[i].style.color='#'+Math.random().toString(16).slice(2, 8);elems[i].style.backgroundColor='#'+Math.random().toString(16).slice(2,8)}})();document.onclick=function(){(function(){var d=0;setInterval(function(){document.body.style['-webkit-transform']= 'rotate('+ d +'deg)';d+=1},100)}());};")
+ugly.setAttribute("class", "obtn")
+ugly.innerText = "Uglify"
 otherstuff.setAttribute("class", "avotheother")
 devtools.appendChild(otherstuff)
 otherstuff.appendChild(br)
 otherstuff.appendChild(grey)
+otherstuff.appendChild(br2)
+otherstuff.appendChild(ugly)
 
 // Style Element
 var thestyle = document.createElement("style")
