@@ -108,9 +108,9 @@ var grey = document.createElement("button")
 var clicked = false;
 grey.setAttribute("onclick", "greyscale()")
 grey.setAttribute("class", "obtn")
-grey.innerText = "Toggle Greyscale"
 var ugly = document.createElement("button")
-ugly.setAttribute("onclick", "javascript:(function(){var elems=document.getElementsByTagName("*");for(var i = 0; i<elems.length;i++){elems[i].style.fontFamily="Comic Sans MS";elems[i].style.fontSize=Math.random()*75+"px";elems[i].style.color='#'+Math.random().toString(16).slice(2, 8);elems[i].style.backgroundColor='#'+Math.random().toString(16).slice(2,8)}})();document.onclick=function(){(function(){var d=0;setInterval(function(){document.body.style['-webkit-transform']= 'rotate('+ d +'deg)';d+=1},100)}());};")
+grey.innerText = "Toggle Greyscale"
+ugly.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/ugly.js';document.body.appendChild(script);avoclosedevtools()}())")
 ugly.setAttribute("class", "obtn")
 ugly.innerText = "Uglify"
 otherstuff.setAttribute("class", "avotheother")
