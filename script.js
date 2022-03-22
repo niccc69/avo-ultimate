@@ -106,6 +106,8 @@ var br2 = document.createElement("br")
 var br3 = document.createElement("br")
 var br4 = document.createElement("br")
 var br5 = document.createElement("br")
+var br6 = document.createElement("br")
+var br7 = document.createElement("br")
 otherstuff.innerText = "Other Features:"
 var grey = document.createElement("button")
 var clicked = false;
@@ -128,6 +130,14 @@ var mlight = document.createElement("button")
 mlight.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/mlight.js';document.body.appendChild(script);avoclosedevtools()}())")
 mlight.setAttribute("class", "obtn")
 mlight.innerText = "MouseLight"
+var dark = document.createElement("button")
+dark.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/dark.js';document.body.appendChild(script);avoclosedevtools()}())")
+dark.setAttribute("class", "obtn")
+dark.innerText = "Dark Mode"
+var click = document.createElement("button")
+click.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/autoclicker.js';document.body.appendChild(script);avoclosedevtools()}())")
+click.setAttribute("class", "obtn")
+click.innerText = "Autoclicker"
 otherstuff.setAttribute("class", "avotheother")
 devtools.appendChild(otherstuff)
 otherstuff.appendChild(br)
@@ -140,6 +150,10 @@ otherstuff.appendChild(br4)
 otherstuff.appendChild(tri)
 otherstuff.appendChild(br5)
 otherstuff.appendChild(mlight)
+otherstuff.appendChild(br6)
+otherstuff.appendChild(dark)
+otherstuff.appendChild(br7)
+otherstuff.appendChild(click)
 
 // Style Element
 var thestyle = document.createElement("style")
