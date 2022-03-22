@@ -105,6 +105,7 @@ var br = document.createElement("br")
 var br2 = document.createElement("br")
 var br3 = document.createElement("br")
 var br4 = document.createElement("br")
+var br5 = document.createElement("br")
 otherstuff.innerText = "Other Features:"
 var grey = document.createElement("button")
 var clicked = false;
@@ -123,6 +124,10 @@ var tri = document.createElement("button")
 tri.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/tri.js';document.body.appendChild(script);avoclosedevtools()}())")
 tri.setAttribute("class", "obtn")
 tri.innerText = "TriView"
+var mlight = document.createElement("button")
+mlight.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@main/mlight.js';document.body.appendChild(script);avoclosedevtools()}())")
+mlight.setAttribute("class", "obtn")
+mlight.innerText = "MouseLight"
 otherstuff.setAttribute("class", "avotheother")
 devtools.appendChild(otherstuff)
 otherstuff.appendChild(br)
@@ -133,6 +138,8 @@ otherstuff.appendChild(br3)
 otherstuff.appendChild(piano)
 otherstuff.appendChild(br4)
 otherstuff.appendChild(tri)
+otherstuff.appendChild(br5)
+otherstuff.appendChild(mlight)
 
 // Style Element
 var thestyle = document.createElement("style")
