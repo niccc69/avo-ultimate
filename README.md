@@ -1,7 +1,7 @@
 # Avo-Ultimate
 The Ultimate Bookmarklet
 
-An addon to [avo](https://github.com/FogNetwork/Avo)
+An addon to [Avo](https://github.com/FogNetwork/Avo)
 
 A new favlet with unblocked dev tools and more!
 
@@ -10,7 +10,7 @@ A new favlet with unblocked dev tools and more!
 
 2. Right click on the bar and choose `Add Page`
 
-3. Set the name to `avo-ultimate` and the URL to the code below:
+3. Set the name to `avo-ultimate` and the URL to the code below or [here](https://github.com/Browncha023/avo-ultimate/blob/main/bookmarklet.txt)
 
 ```js
 javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/Browncha023/avo-ultimate@latest/script.min.js';document.body.appendChild(a);}())
