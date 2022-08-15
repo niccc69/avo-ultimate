@@ -44,7 +44,7 @@ navbar.appendChild(console)
 
 //Other Features
 var other = document.createElement("button")
-other.innerText = "Other"
+other.innerText = "Suki's Tools"
 other.setAttribute("class", "avoother")
 other.setAttribute("onclick", "othergo()")
 navbar.appendChild(other)
