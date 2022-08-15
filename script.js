@@ -42,9 +42,9 @@ console.setAttribute("class", "avoconsole")
 console.setAttribute("onclick", "avogoconsole()")
 navbar.appendChild(console)
 
-//Other Features
+//Sukis Tools
 var other = document.createElement("button")
-other.innerText = "Suki's Tools"
+other.innerText = "Sukis Tools"
 other.setAttribute("class", "avoother")
 other.setAttribute("onclick", "othergo()")
 navbar.appendChild(other)
