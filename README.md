@@ -1,3 +1,6 @@
+# ⚠️This Project Is No Longer Supported!⚠️
+- Please check out [Vengeance](https://github.com/Browncha023/Vengeance) instead!
+
 # Avo-Ultimate
 The Ultimate Bookmarklet
 
